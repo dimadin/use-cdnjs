@@ -34,14 +34,14 @@ What this means is that filter function accepts an array of items. Each item's k
 Please note that there are separate filters for JavaScript items and for CSS items. `use_cdnjs_styles` is for CSS, `use_cdnjs_scripts` is for JavaScript. Both are used the same way. Here is example for JavaScript:
  
 ```
-function md_bootstrap_use_cdnjs_script( $styles ) {
-	$styles['bootstrap'] = array(
+function md_bootstrap_use_cdnjs_script( $scripts ) {
+	$scripts['bootstrap'] = array(
 		'library'  => 'twitter-bootstrap',
 		'file'     => 'js/bootstrap',
 		'minified' => '.min',
 	);
 
-	return $styles;
+	return $scripts;
 }
 add_filter( 'use_cdnjs_scripts', 'md_bootstrap_use_cdnjs_script' );
 ```
