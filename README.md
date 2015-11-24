@@ -48,4 +48,6 @@ add_filter( 'use_cdnjs_scripts', 'md_bootstrap_use_cdnjs_script' );
 
 Both filters in action can be seen if you look source code of [my blog](http://blog.milandinic.com/).
 
+These filters can be also used to remove some of default items from processing.
+
 This plugin is inspired by [Use Google Libraries](https://github.com/jpenney/use-google-libraries) by [Jason Penney](http://jasonpenney.net/). It uses some techniques from it, but Use cdnjs is written from scratch and is aimed for modern WordPress versions while also applying difference from [Google Hosted Libraries](https://developers.google.com/speed/libraries/) and [cdnjs](https://cdnjs.com/).
