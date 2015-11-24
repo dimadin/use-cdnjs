@@ -15,7 +15,7 @@
  * Description: Use common JavaScript libraries from cdnjs instead of local copies.
  * Author:      Milan Dinić
  * Author URI:  http://blog.milandinic.com/
- * Version:     0.3-beta-1
+ * Version:     0.4-beta-1
  * Text Domain: use-cdnjs
  * Domain Path: /languages/
  * License:     GPL
