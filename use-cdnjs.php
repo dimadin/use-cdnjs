@@ -392,7 +392,7 @@ class Use_cdnjs {
 				 * Items that have hyphen in its version aren't allowed.
 				 * This usually means that this is non-standard version.
 				 */
-				if ( false !== strpos( $ver, '-' ) ) {
+				if ( false !== strpos( $version, '-' ) ) {
 					continue;
 				}
 
