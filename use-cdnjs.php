@@ -147,6 +147,7 @@ class Use_cdnjs {
 		// Add new links
 		$links['donate']   = '<a href="http://blog.milandinic.com/donate/">' . __( 'Donate', 'use-cdnjs' ) . '</a>';
 		$links['wpdev']    = '<a href="http://blog.milandinic.com/wordpress/custom-development/">' . __( 'WordPress Developer', 'use-cdnjs' ) . '</a>';
+		$links['premiums'] = '<strong><a href="https://shop.milandinic.com/">' . __( 'Premium WordPress Plugins', 'use-cdnjs' ) . '</a></strong>';
 
 		return $links;
 	}
